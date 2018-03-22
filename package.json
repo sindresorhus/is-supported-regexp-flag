@@ -1,6 +1,6 @@
 {
   "name": "is-supported-regexp-flag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check whether a RegExp flag is supported. Mostly useful for `y` and `u`.",
   "license": "MIT",
   "repository": "sindresorhus/is-supported-regexp-flag",
