@@ -1,10 +1,10 @@
 'use strict';
-module.exports = function (flag) {
-	var supported = true;
+module.exports = flag => {
+	let supported = true;
 
 	try {
-		new RegExp('', flag);
-	} catch (err) {
+		new RegExp('', flag); // eslint-disable-line no-new
+	} catch (_) {
 		supported = false;
 	}
 

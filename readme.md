@@ -5,26 +5,26 @@
 
 ## Install
 
-```sh
-$ npm install --save is-supported-regexp-flag
+```
+$ npm install is-supported-regexp-flag
 ```
 
 
 ## Usage
 
 ```js
-var isSupportedRegexpFlag = require('is-supported-regexp-flag');
+const isSupportedRegexpFlag = require('is-supported-regexp-flag');
 
-isSupportedRegexpFlag('g'); // as in /foo/g
+isSupportedRegexpFlag('g'); // As in `/foo/g`
 //=> true
 
 isSupportedRegexpFlag('u');
 //=> false
 ```
 
-RegExp throws if you're trying to use unsupported flags. This is a nicer way to check for support.
+The `RegExp` constructor throws if you're trying to use unsupported flags. This is a nicer way to check for support.
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

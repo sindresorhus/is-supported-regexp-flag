@@ -1,8 +1,8 @@
-'use strict';
-var assert = require('assert');
-var isSupportedRegexpFlag = require('./');
+import test from 'ava';
+import m from '.';
 
-it('should check whether a RegExp flag is supported', function () {
-	assert(isSupportedRegexpFlag('g'));
-	assert(!isSupportedRegexpFlag('u'));
+test('main', t => {
+	t.true(m('g'));
+	t.true(m('u'));
+	t.false(m('q'));
 });
