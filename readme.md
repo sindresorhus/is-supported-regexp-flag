@@ -1,4 +1,4 @@
-# is-supported-regexp-flag [![Build Status](https://travis-ci.org/sindresorhus/is-supported-regexp-flag.svg?branch=master)](https://travis-ci.org/sindresorhus/is-supported-regexp-flag)
+# is-supported-regexp-flag
 
 > Check whether a RegExp flag is supported. Mostly useful for `y` and `u`.
 
