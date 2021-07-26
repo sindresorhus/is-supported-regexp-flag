@@ -1,6 +1,6 @@
 {
 	"name": "is-supported-regexp-flag",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Check whether a RegExp flag is supported",
 	"license": "MIT",
 	"repository": "sindresorhus/is-supported-regexp-flag",
