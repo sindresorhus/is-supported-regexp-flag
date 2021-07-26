@@ -1,8 +1,8 @@
 import test from 'ava';
-import m from '.';
+import isSupportedRegexpFlag from './index.js';
 
 test('main', t => {
-	t.true(m('g'));
-	t.true(m('u'));
-	t.false(m('q'));
+	t.true(isSupportedRegexpFlag('g'));
+	t.true(isSupportedRegexpFlag('u'));
+	t.false(isSupportedRegexpFlag('q'));
 });

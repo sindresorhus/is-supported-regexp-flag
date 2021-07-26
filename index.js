@@ -1,12 +1,8 @@
-'use strict';
-module.exports = flag => {
-	let supported = true;
-
+export default function isSupportedRegexpFlag(flag) {
 	try {
 		new RegExp('', flag); // eslint-disable-line no-new
-	} catch (_) {
-		supported = false;
+		return true;
+	} catch {
+		return false;
 	}
-
-	return supported;
-};
+}
